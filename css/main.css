@@ -72,10 +72,29 @@ article ul {
     width: 50%;
 }
 /*-----DL--------*/
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
 dt,
 dd {
     line-height: 1.5em;
     border-top: 1px solid white;
+    flex-basis: 40%;
+    margin: 0;
+}
+
+dt:last-of-type,
+dd:last-of-type {
+    border-bottom: 1px solid white;
+
+}
+
+
+dt{
+    font-weight: bolder;
 }
 /* dt {
     clear: left;
@@ -91,20 +110,3 @@ dd {
     margin:0;
     
 } */
-dt:last-of-type,
-dd:last-of-type {
-    border-bottom: 1px solid white;
-}
-dl {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-dt, 
-dd {
-    flex-basis: 40%;
-    margin: 0;
-}
-dt{
-    flex-grow: row;
-}
