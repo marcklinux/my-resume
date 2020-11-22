@@ -72,11 +72,16 @@ article ul {
 .references {
   display: flex;
   flex-wrap: wrap;
-  background-color: #A18A75;
+  background-color: #75787C;
+  
 }
 .references article {
   width: 50%;
   text-align: center;
+  
+}
+.references article figure img{
+    border-radius: 50%;
 }
 /*-----DL--------*/
 dl {
@@ -99,6 +104,14 @@ dd:last-of-type {
 
 dt {
   font-weight: bolder;
+}
+/*--------EXPERIENCE-----------*/
+.experience {
+    display: flex;
+  flex-wrap: wrap;
+  background-color: #D9A491;
+  padding: 5px;
+  
 }
 /* dt {
     clear: left;
