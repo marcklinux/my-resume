@@ -35,6 +35,9 @@ aside section h2:first-child {
   width: 200px;
   height: 200px;
 }
+.figcaption{
+    text-align: center;
+}
 /*--------MAIN--------------*/
 main section > h2 {
   text-transform: uppercase;
@@ -91,10 +94,11 @@ dl {
 
 dt,
 dd {
-  line-height: 1.5em;
+  line-height: 2em;
   border-top: 1px solid white;
   flex-basis: 40%;
   margin: 0;
+  padding: 2px;
 }
 
 dt:last-of-type,
@@ -105,6 +109,7 @@ dd:last-of-type {
 dt {
   font-weight: bolder;
 }
+
 /*--------EXPERIENCE-----------*/
 .experience {
     display: flex;
@@ -117,7 +122,10 @@ dt {
     clear: left;
     width: 30%;
     float: left;
-    font-weight: bold;
+    font-weight: bolder;
+    
+    
+    
     
 }
 dd {
@@ -125,5 +133,6 @@ dd {
     width: 50%;
     float: left;
     margin:0;
+   
     
 } */
